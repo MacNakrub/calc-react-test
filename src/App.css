@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.App-panel-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-panel {
+  flex: 1 auto;
+  padding: 10px;
+  border: 1px solid #282c34;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
